@@ -1,0 +1,74 @@
+C program to print ODD numbers from 1 to N using while loop.
+This is an example of while loop - In this C program, we are going to learn how can we print all ODD numbers 
+
+from given range (1 to N) using while loop?
+C program to print EVEN numbers from 1 to N using while loop.
+This is an example of while loop - In this C program, we are going to learn how can we print all EVEN numbers 
+
+from given range (1 to N) using while loop?
+C program to print all uppercase alphabets using while loop.
+This is an example of while loop in C programming language - In this C program, we are going to print all 
+
+uppercase alphabets from ‘A’ to ‘Z’ using while loop.
+C program to print all lowercase alphabets using while loop.
+This is an example of while loop in C programming language - In this C program, we are going to print all 
+
+lowercase alphabets from ‘a’ to ‘z’ using while loop.
+C program to print numbers from 1 to N using while loop.
+This is an example of while loop in C programming language - In this C program, we are going to print numbers 
+
+from 1 to N using while loop.
+C program to print numbers from 1 to 10 using while loop.
+This is an example of while loop in C programming language - In this C program, we are going to print numbers 
+
+from 1 to 10 using while loop.
+C program to read an integer and print its multiplication table.
+In this program, we are reading an integer number and printing its multiplication table, we are implementing 
+
+the program using for, while and do while (through all loops).
+C Program to print tables from numbers 1 to 20.
+This program will print table of numbers from 1 to 20 using nested looping. There are two loops using parent 
+
+loop to run from 1 to 20 and child loop to run from 1 to 10 to print table of corresponding number which is 
+
+coming from parent loop.
+C Program to check entered number is ZERO, POSITIVE or NEGATIVE until user does not want to quit.
+This program will read an integer number and check whether entered number is Positive, Negative or Zero until 
+
+user does not want to exit.
+C Program to find factorial of a number.
+In this program, we will read and integer number and find the factorial using different methods - using 
+
+simple method (without using user define function), using User Define Function and using Recursion.
+C Program to find sum of first N natural number, N must be taken by the user.
+This program will read the value of N and calculate sum from 1 to N, first N natural numbers means numbers 
+
+from 1 to N and N will be read through user.
+C program to print all prime numbers from 1 to N.
+This program will read the value of N and print all prime numbers from 1 to N. The logic behind implement 
+
+this program - Run loop from 1 to N and check each value in another loop, if the value is divisible by any 
+
+number between 2 to num-1 (or less than equal to num/2) - Here num is the value to check it is prime of not.
+C program to print all even and odd numbers from 1 to N.
+This program will read value of N and print all numbers from 1 to N with EVEN and ODD after checking the 
+
+numbers whether they are EVEN or ODD.
+C program to print all Armstrong numbers from 1 to N.
+This program will read value of N and print all Armstrong Numbers from 1 to N.
+C program to print square, cube and square root of all numbers from 1 to N.
+This program will print Square, Cube and Square Root of all Numbers from 1 to N using loop.
+C program to print all leap years from 1 to N.
+This program will read value of N and print all Leap Years from 1 to N years. There are two conditions for 
+
+leap year: 1- If year is divisible by 400 ( for Century years), 2- If year is divisible by 4 and must not be 
+
+divisible by 100 (for Non Century years).
+C program to print all upper case and lower case alphabets.
+In this C program, we are going to print all uppercase alphabets (from 'A' to 'Z') and lowercase alphabets 
+
+(from 'a' to 'z').
+C program to read age of 15 person and count total Baby age, School age and Adult age.
+This program will read age of 15 person one by one (using while loop) and count total number of Baby Age, 
+
+School attending person age and Adult age person.
