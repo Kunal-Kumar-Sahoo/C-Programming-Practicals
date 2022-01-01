@@ -18,9 +18,9 @@ int main() {
         int sum = 0;
         for (j = i; j > 0; j /= 10)
             sum += pow((double)(j % 10), digits);
-        if (sum == i) printf("%d\n", i);
+        if (sum == i) printf("%d ", i);
         i++;
-    }
+    } printf("\n");
 
     return 0;
 }
