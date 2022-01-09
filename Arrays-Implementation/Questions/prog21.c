@@ -38,7 +38,7 @@ int main() {
             printf("\n");
         }
 
-        printf("The first matrix is:\n");
+        printf("The second matrix is:\n");
         for(i = 0; i < r2; i++) {
             for(j = 0; j < c2; j++) {
                 printf("%d ", b[i][j]);
@@ -46,7 +46,7 @@ int main() {
             printf("\n");
         }
 
-        printf("The multiplication of tow matrices is:\n");
+        printf("The multiplication of two matrices is:\n");
         int sum;
         for(i = 0; i < r1; i++) {
             for(j = 0; j < c2; j++) {

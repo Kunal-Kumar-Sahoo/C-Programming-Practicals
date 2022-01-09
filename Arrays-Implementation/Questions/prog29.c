@@ -15,7 +15,7 @@ int main() {
     printf("Input elements in the matrix:\n");
     for(i = 0; i < rows; i++) {
         for(j = 0; j < columns; j++) {
-            printf("element - [%d],[%d] : ");
+            printf("element - [%d],[%d] : ", i, j);
             scanf("%d", &arr[i][j]);
 
             if(arr[i][j] == 0) {
