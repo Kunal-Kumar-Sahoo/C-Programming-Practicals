@@ -2,7 +2,6 @@
 // Objective: Write a program in C to count the total number of words in a string. 
 
 #include <stdio.h>
-#include <string.h>
 
 #define SIZE 100
 
@@ -11,7 +10,11 @@ int main() {
 	char str[SIZE];
 	scanf("%[^\n]%c", str);
 
-	int n = strlen(str), i, count = 1;
+	int n = 0, i, count = 1;
+
+	while(str[n++] != '\0');
+	n -= 2;
+
 	for(i = 0; i < n-1; i++) {
 		if(str[i] == ' ' && 
 			((str[i+1] >= 'A' && str[i] <= 'Z') ||

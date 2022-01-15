@@ -2,7 +2,6 @@
 // Objective: Write a program in C to print individual characters of string in reverse order. 
 
 #include <stdio.h>
-#include <string.h>
 
 #define SIZE 100
 
@@ -10,9 +9,12 @@ int main() {
 	printf("Input the string: ");
 	char str[SIZE];
 	scanf("%[^\n]%c", str);
+	
+	int i, len = 0;
+	while(str[len++] != '\0');
+	len -= 2;
 
-	int i;
-	for(i = strlen(str)-1; i >= 0; i--) {
+	for(i = len-1; i >= 0; i--) {
 		printf("%c", str[i]);
 	}
 	printf("\n");
