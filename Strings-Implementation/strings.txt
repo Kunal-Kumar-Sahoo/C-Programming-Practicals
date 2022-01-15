@@ -177,7 +177,8 @@ The entered letter is not an UPPERCASE letter.
 
 25. Write a program in C to replace the spaces of a string with a specific character. 
 Test Data :
-Input a string : Be glad to see the back of Input replace character : *
+Input a string : Be glad to see the back of 
+Input replace character : *
 Expected Output :
 After replacing the space with  * the new string is :                 
 Be*glad*to*see*the*back*of*
@@ -199,12 +200,13 @@ Input a character : w
 Expected Output :
 The entered letter is a lowercase letter.
 
+(Currently file handling is not taught so dont do it: Kunal :) )
 29. Write a program in C to read a file and remove the spaces between two words of its content. 
 Expected Output :
 The content of the file is :                                           
 The quick brown fox jumps over the lazy dog                            
 After removing the spaces the content is :                             
-Thequickbrownfoxjumpsoverthelazydog
+Thequickbrownfoxjumpsoverthelazydog 
 
 30. Write a program in C to check whether a character is digit or not. 
 Test Data :
