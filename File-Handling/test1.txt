@@ -1,3 +1,0 @@
-Hello World
-I am Kunal 
-I am C programmer
