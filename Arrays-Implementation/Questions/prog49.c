@@ -41,6 +41,7 @@ int main() {
 				printf("The element Found at the position in the matrix is: %d, %d\n", i, j);
 				found = true;
 			}
+			if(arr[i][j] > target) break;
 		}
 	}
 	if(!found) {
