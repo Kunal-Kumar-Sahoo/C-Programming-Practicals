@@ -13,7 +13,6 @@ int main() {
 	int n = 0, i, count = 1;
 
 	while(str[n++] != '\0');
-	n -= 2;
 
 	for(i = 0; i < n-1; i++) {
 		if(str[i] == ' ' && 
