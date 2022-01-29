@@ -8,20 +8,22 @@
 
 int main() {
 	printf("Input the string: ");
-	char str[SIZE]; fgets(str, SIZE, stdin);
+	char str[SIZE]; scanf("%[^\n]%c", str);
 
 	int vowels = 0, consonants = 0;
 	for(int i = 0; str[i] != '\0'; i++) {
-		switch(tolower(str[i])) {
-			case 'a':
-			case 'e':
-			case 'i':
-			case 'o':
-			case 'u':
-				vowels++;
-			default:
-				consonants++;
-		}
+        if(isalpha(str[i]))
+            switch(tolower(str[i])) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    vowels++;
+                    break;
+                default:
+                    consonants++;
+            }
 	}
 
 	printf("The total number of vowels in the string is: %d\n", vowels);
