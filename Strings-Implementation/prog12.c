@@ -14,8 +14,10 @@ int main() {
 
 	int i, j;
 	printf("Input %d strings:\n", N);
-	for(i = 0; i <= N; i++) 
+	for(i = 0; i <= N; i++) {
 		fgets(words[i], sizeof(words), stdin);
+        words[i][strlen(words[i])-1] = '\0';
+    }
 
 	for(i = 1; i <= N; i++) {
 		for(j = 0; j <= N-i; j++) {

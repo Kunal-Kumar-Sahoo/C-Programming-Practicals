@@ -12,7 +12,7 @@ int main() {
 
 	int i, j, n=0; char temp;
 
-	while(str[n++] != '\0'); n -= 2; // Remove the null and an extra increment after that.
+	while(str[n++] != '\0'); n -= 3; // Remove the null and an extra increment after that.
 
 	for(i = 0; i < n-1; i++) {
 		for(j = i+1; j < n; j++) {
