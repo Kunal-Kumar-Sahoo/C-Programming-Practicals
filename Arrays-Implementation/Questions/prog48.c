@@ -7,7 +7,7 @@ int main() {
 	printf("Input the size of array: ");
 	int n; scanf("%d", &n);
 
-	int arr[n], prod_arr[n], i, j, prod;
+	int arr[n], i, j, prod = 1;
 
 	printf("Input %d elements in the array:\n", n);
 	for(i = 0; i < n; i++) {
@@ -18,21 +18,12 @@ int main() {
 	printf("The given array is: ");
 	for(i = 0; i < n; i++) {
 		printf("%d ", arr[i]);
-	}
-
-	for(i = 0; i < n; i++) {
-		prod = 1;
-		for(j = 0; j < n; j++) {
-			if(j != i) {
-				prod *= arr[j];
-			}
-		}
-		prod_arr[i] = prod;
+		prod *= arr[i];
 	}
 
 	printf("\nThe product array is: ");
 	for(i = 0; i < n; i++) {
-		printf("%d ", prod_arr[i]);
+		printf("%d ", prod / arr[i]);
 	}
 	printf("\n");
 
