@@ -18,7 +18,7 @@ int main() {
 
     printf("Input %d elements in the array:\n", n);
     for(int i = 0; i < n; i++) {
-        printf("element - %d: ");
+        printf("element - %d: ", i);
         scanf("%d", arr+i);
     }
     printf("Largest element in the array: %d\n", findMax(arr, n));
