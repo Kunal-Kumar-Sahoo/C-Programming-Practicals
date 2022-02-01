@@ -7,11 +7,11 @@ int main() {
 	printf("Input a character: ");
 	char c; scanf("%c", &c);
 
-	if(c >= 'A' && c <= 'Z') {
-		printf("The entered letter is an lowercase letter.\n");
+	if(c >= 'a' && c <= 'z') {
+		printf("The entered letter is a lowercase letter.\n");
 	}
 	else {
-		printf("The entered letter is not an lowercase letter.\n");
+		printf("The entered letter is not a lowercase letter.\n");
 	}
 
 	return 0;
