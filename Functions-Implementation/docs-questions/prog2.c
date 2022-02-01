@@ -9,7 +9,7 @@ long square(int n) {
 int main() {
     printf("Enter a number: ");
     int n; scanf("%d", &n);
-    printf("%d ^ 2 = %ld\n", square(n));
+    printf("%d ^ 2 = %ld\n", n, square(n));
 
     return 0;
 }
